@@ -8,6 +8,13 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .card {
     position:absolute;
     top: 50%;
@@ -16,8 +23,6 @@ body{
     max-width: 320px;
     max-height: 497px;
     border-radius: 25px;
-    margin: auto;
-    text-align: center;
     background-color: white;
     padding: 20px;
     padding-bottom: 30px;
